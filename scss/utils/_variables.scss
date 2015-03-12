@@ -1,0 +1,51 @@
+/*------------------------------------*\
+=media queries
+\*------------------------------------*/
+
+/**
+* Usage
+* - used by media queries mixin
+* - used to namespace grids
+*
+* Nested Lists
+* - first param: keyword, also used to namespace grid classes
+* - second param: media query parameters (all media queries are screen based)
+* - Third param: is the query used for grids or not
+*
+* Dimensions
+* - small:    600px     37.5em
+* - medium:   760px     47.5em
+* - large:    1024px    64em
+* - xlarge:   1140px    71.25em
+*/
+
+$mq-list:   "under-small"	  "(max-width:37.49em)"     false,
+            "small"      		"(min-width:37.5em)"       true,
+            "medium"     		"(min-width:47.5em)"	     true,
+            "large"         "(min-width:64em)"         true,
+            "xlarge"        "(min-width:71.25em)"      true;
+
+/*------------------------------------*\
+=typography
+\*------------------------------------*/
+
+$fontstack-main: 	"Source Sans Pro", Helvetica, Arial, sans-serif;
+
+
+/*------------------------------------*\
+=colors
+\*------------------------------------*/
+
+$color-main1:         #B2B3B5;
+$color-main2:         #7F8184;
+$color-main3:         #656769;
+
+$color-main-light1:   #F8F8F8;
+$color-main-light2:   #EBECEC;
+$color-main-light3:   #C5C6C7;
+
+$color-main-dark1:    #4C4D4F;
+$color-main-dark2:    #323334;
+$color-main-dark3:    #19191A;
+
+$color-accent: 				#AAB72C;

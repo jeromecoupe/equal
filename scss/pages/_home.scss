@@ -1,0 +1,59 @@
+.homebanner
+{
+  padding: calc-em(40px) 0;
+
+  @include mq(medium)
+  {
+    padding: calc-em(80px) 0;
+  }
+
+  @include mq(large)
+  {
+    padding: calc-em(120px) 0;
+  }
+}
+
+  .homebanner__tagline, .homebanner__motto
+  {
+    text-align: center;
+  }
+
+  .homebanner__tagline
+  {
+    margin: 0 0 .5em 0;
+    padding: 0;
+    color: $color-main-dark3;
+    font-weight: 400;
+    @include rem-size(24px);
+
+    @include mq(medium)
+    {
+      @include rem-size(36px);
+    }
+
+    @include mq(large)
+    {
+      @include rem-size(42px);
+    }
+  }
+
+  .homebanner__motto
+  {
+    position: relative; /* positioning context for arrow */
+    margin: 0;
+    padding: 0 0 30px 0;
+    @include rem-size(18px);
+    color: $color-main1;
+    font-weight: 300;
+
+    @include mq(medium)
+    {
+      @include rem-size(21px);
+      padding-bottom: 40px;
+    }
+
+    @include mq(large)
+    {
+      @include rem-size(24px);
+    }
+  }

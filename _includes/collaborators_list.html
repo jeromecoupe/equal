@@ -1,0 +1,59 @@
+{% assign items = site.collaborators | where:'language', include.language | sort: 'name', 'first' %}
+{% for item in items %}
+    {% if forloop.first %}<ul class="list-spaced  grid"><li class="grid__unit  small-span-6of12  large-span-4of12">{% endif %}
+
+        <article class="team-member">
+          <p class="imgcontainer"><img src="{{ item.image | prepend:'/img/collaborators/' }}" class="fluidimg" alt="{{ item.surname }} {{ item.name }}"></p>
+          <p class="team-member__position">{{ item.position }}</p>
+          <h2 class="h4">{{ item.surname }} {{ item.name }}</h2>
+          <div class="team-member__bio">
+            {{ item.content }}
+          </div>
+
+          {% if item.phone or item.gsm %}
+            <div class="team-member__phones">
+              {% if item.phone %}
+                <p>Tel: <a href="tel:{{ item.phone.number }}">{{ item.phone.display }}</a></p>
+              {% endif %}
+              {% if item.gsm %}
+               <p>Gsm: <a href="tel:{{ item.gsm.number }}">{{ item.gsm.display }}</a></p>
+              {% endif %}
+            </div>
+          {% endif %}
+
+          {% for contact in item.contacts %}
+            {% if forloop.first %}<ul class="list-icons"><li>{% endif %}
+
+              {% if contact.email %}
+                <a href="mailto:{{ contact.email }}">
+                  {% include svgicons/mail.html %}
+                </a>
+              {% endif %}
+              {% if contact.facebook %}
+                <a href="{{ contact.facebook }}">
+                  {% include svgicons/facebook.html %}
+                </a>
+              {% endif %}
+              {% if contact.twitter %}
+                <a href="{{ contact.twitter }}">
+                  {% include svgicons/twitter.html %}
+                </a>
+              {% endif %}
+              {% if contact.linkedin %}
+                <a href="{{ contact.linkedin }}">
+                  {% include svgicons/linkedin.html %}
+                </a>
+              {% endif %}
+              {% if contact.link %}
+                <a href="{{ contact.link }}">
+                  {% include svgicons/link.html %}
+                </a>
+              {% endif %}
+
+            {% if forloop.last %}</li></ul>{% else %}</li><li>{% endif %}
+          {% endfor %}
+        </article>
+
+    {% if forloop.last %}</li></ul>{% else %}</li><li class="grid__unit  small-span-6of12  large-span-4of12">{% endif %}
+
+{% endfor %}

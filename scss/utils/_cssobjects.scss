@@ -1,0 +1,25 @@
+/*------------------------------------*\
+=media object
+\*------------------------------------*/
+
+.media
+{
+	@extend %clearfix;
+}
+
+	.media__img
+	{
+		float:left;
+		margin-right:1em;
+	}
+
+		.media--reverse .media__img
+		{
+			float:right;
+			margin-left:1em;
+		}
+
+	.media__body
+	{
+		overflow:hidden;
+	}

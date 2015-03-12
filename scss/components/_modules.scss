@@ -1,0 +1,248 @@
+/* -------------------------- *\
+=modules
+\* -------------------------- */
+
+/* =pagesection
+============================= */
+
+/*
+ *
+ * used to create content sections in pages.
+ * only manages padding
+ *
+**/
+
+.pagesection
+{
+  padding-top: calc-em(60px);
+  padding-bottom: calc-em(60px);
+
+  @include mq(medium)
+  {
+    padding-top: calc-em(60px);
+    padding-bottom: calc-em(60px);
+  }
+
+  @include mq(large)
+  {
+    padding-top: calc-em(80px);
+    padding-bottom: calc-em(80px);
+  }
+
+  @include mq(xlarge)
+  {
+    padding-top: calc-em(100px);
+    padding-bottom: calc-em(100px);
+  }
+}
+
+  .pagesection--light
+  {
+    background-color: $color-main-light1;
+  }
+
+  .pagesection--dark
+  {
+    background-color: $color-main-dark3;
+  }
+
+/* =centered intros
+============================= */
+
+.introcenter
+{
+  text-align: center;
+  margin-bottom: calc-em(40px);
+
+  @include mq(medium)
+  {
+    padding: 0 percentage(80/920);
+  }
+}
+
+/* =full width images / banners
+============================= */
+
+/*
+ *
+ * used to create full width images in pages
+ * the modifier class manages the image and the positioning
+ *
+**/
+
+.fullimg
+{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $color-main-light3;
+  height: 200px;
+
+  @include mq(small)
+  {
+    height: 300px;
+  }
+
+  @include mq(medium)
+  {
+    height: 400px;
+  }
+
+  @include mq(large)
+  {
+    height: 500px;
+  }
+
+  @include mq(xlarge)
+  {
+    height: 700px;
+  }
+}
+
+  .fullimg--flagey
+  {
+    background-position: 50% 50%;
+    background-image: url(../img/banners/banner_flagey_400.jpg);
+
+    @include mq(small)
+    {
+      background-image: url(../img/banners/banner_flagey_800.jpg);
+    }
+
+    @include mq(large)
+    {
+      background-image: url(../img/banners/banner_flagey_1140.jpg);
+    }
+
+    @include mq(xlarge)
+    {
+      background-image: url(../img/banners/banner_flagey_1500.jpg);
+    }
+  }
+
+  .fullimg--squares
+  {
+    background-size: none;
+    background-position: 50% 50%;
+    background-image: url(../img/banners/banner_squares_400.jpg);
+
+    @include mq(small)
+    {
+      background-image: url(../img/banners/banner_squares_800.jpg);
+    }
+
+    @include mq(large)
+    {
+      background-image: url(../img/banners/banner_squares_1140.jpg);
+    }
+
+    @include mq(xlarge)
+    {
+      background-image: url(../img/banners/banner_squares_1500.jpg);
+    }
+  }
+
+  .fullimg--pond
+  {
+    background-position: 50% 50%;
+    background-image: url(../img/banners/banner_pond_400.jpg);
+
+    @include mq(small)
+    {
+      background-image: url(../img/banners/banner_pond_800.jpg);
+    }
+
+    @include mq(large)
+    {
+      background-image: url(../img/banners/banner_pond_1140.jpg);
+    }
+
+    @include mq(xlarge)
+    {
+      background-image: url(../img/banners/banner_pond_1500.jpg);
+    }
+  }
+
+
+/* =annoucements
+============================= */
+
+.announcement
+{
+  @include mq(medium)
+  {
+    margin: 0 percentage(80/920);
+  }
+
+  @include mq(large)
+  {
+    margin: 0 percentage(120/920);
+  }
+}
+
+.announcement__title
+{
+  margin: 0 0 .5em;
+  padding: 0;
+  font-weight: 300;
+  color: #fff;
+
+  span
+  {
+    margin-left: .5em;
+    border-left: 1px solid $color-main-dark2;
+    padding-left: .5em;
+    color: $color-main1;
+  }
+
+  @include rem-size(24px);
+
+  @include mq(medium)
+  {
+    @include rem-size(36px);
+  }
+
+  @include mq(large)
+  {
+    @include rem-size(48px);
+  }
+}
+
+.announcement__text
+{
+  color: $color-main2;
+  padding-left: 60px;
+  @include rem-size(18px);
+  background-repeat: no-repeat;
+  background-image: url(../img/arrow.svg);
+  .no-svg {background-image: url(../img/arrow.png);}
+}
+
+/* =team members
+============================= */
+
+.team-member__position
+{
+  margin-bottom: .25em;
+  @include rem-size(18px);
+  color: $color-main1;
+}
+
+.team-member__phones
+{
+  margin: .5em 0 1em;
+  padding: .5em 0 .5em;
+  border-top: 1px solid $color-main-light2;
+  border-bottom: 1px solid $color-main-light2;
+
+  p
+  {
+    margin: .25em 0;
+    padding: 0;
+  }
+
+  a:hover
+  {
+    text-decoration: none;
+    color: $color-main2;
+  }
+}

@@ -1,0 +1,17 @@
+body
+{
+  margin:0;
+  padding:0;
+  background: #fff;
+  color: $color-main3;
+}
+
+h1,h2,h3,h4,h5,h6,
+ul,ol,dd,
+p,figure,
+pre,table,fieldset,hr,
+form
+{
+  margin-top:0;
+  padding-top:0;
+}

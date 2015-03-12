@@ -1,0 +1,33 @@
+/* -------------------------- *\
+=general layout
+\* -------------------------- */
+
+/*
+ *
+ * full width responsive layout
+ * each part of the page lives within an horizontal "slice"
+ * .container used to center things & control max-width
+ *
+**/
+
+.container
+{
+  padding: 0 5%;
+
+  @include mq(small)
+  {
+    margin: 0 auto;
+    padding: 0 percentage(110/1140);
+    max-width: 920px;
+  }
+
+}
+
+  .container--narrow
+  {
+    @include mq(medium)
+    {
+      padding: 0 percentage(200/1140);
+      max-width: 740px;
+    }
+  }

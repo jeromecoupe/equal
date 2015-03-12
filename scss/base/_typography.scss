@@ -1,0 +1,159 @@
+/* -------------------------- *\
+=typography
+\* -------------------------- */
+
+html
+{
+  font:normal 100%/1.4 $fontstack-main;
+}
+
+
+/* =titles
+############################# */
+
+%title
+{
+  margin: 0 0 .5em;
+  padding: 0;
+  font-weight: 300;
+  color: $color-main-dark3;
+}
+
+.h1
+{
+  @extend %title;
+  @include rem-size(26px);
+
+  @include mq(medium)
+  {
+    @include rem-size(36px);
+  }
+
+  @include mq(large)
+  {
+    @include rem-size(48px);
+  }
+}
+
+  .h1--accent
+  {
+    color: $color-accent;
+  }
+
+.h2
+{
+  @extend %title;
+  @include rem-size(20px);
+
+  @include mq(medium)
+  {
+    @include rem-size(24px);
+  }
+
+  @include mq(large)
+  {
+    @include rem-size(36px);
+  }
+}
+
+.h3
+{
+  @extend %title;
+  @include rem-size(18px);
+
+  @include mq(medium)
+  {
+    @include rem-size(20px);
+  }
+
+  @include mq(large)
+  {
+    @include rem-size(24px);
+  }
+}
+
+.h4
+{
+  @extend %title;
+  font-weight: 600;
+  @include rem-size(18px);
+
+  @include mq(large)
+  {
+    @include rem-size(20px);
+  }
+}
+
+/* =titles special
+############################# */
+.footertitle
+{
+  margin: 0 0 1em;
+  padding: 0;
+  @include rem-size(16px);
+  font-weight: 600;
+  text-transform: uppercase;
+  text-shadow: (1px 1px 0 rgba(0,0,0,0.25));
+  color: #fff;
+}
+
+/* =links
+############################# */
+
+/* =default
+============================= */
+
+a
+{
+  color: $color-accent;
+  text-decoration: none;
+
+  &:hover
+  {
+    text-decoration:underline;
+  }
+}
+
+/* =links in footer
+============================= */
+.pagefooter
+{
+  a
+  {
+    color: $color-main-dark2;
+    transition: all 0.2s linear;
+
+    &:hover
+    {
+      color: #fff;
+      color: rgba(255,255,255,0.75);
+      text-decoration: none;
+    }
+  }
+}
+
+/* =buttons
+============================= */
+
+/* =text styles
+############################# */
+
+.intro
+{
+  @include rem-size(18px);
+  font-weight: 300;
+  color: $color-main2;
+
+  @include mq(medium)
+  {
+    @include rem-size(21px);
+  }
+}
+
+  .intro--narrow
+  {
+    @include mq(medium)
+    {
+      padding: 0 percentage(80/920);
+    }
+  }

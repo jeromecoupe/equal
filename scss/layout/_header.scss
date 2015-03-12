@@ -1,0 +1,105 @@
+/* -------------------------- *\
+=header
+\* -------------------------- */
+
+
+/*= header (logo and languages)
+================================= */
+
+.pageheader
+{
+  border-bottom:1px solid $color-main-light2;
+}
+
+.pageheader__sup
+{
+  padding: 1em 0;
+
+  @include mq(small)
+  {
+    padding: 2em 0;
+  }
+}
+
+.logo
+{
+  margin:0;
+  padding:0;
+  float: left;
+}
+
+  .logo > a
+  {
+    display: block;
+
+    width: 120px;
+    height: 37px;
+
+    @include mq(medium)
+    {
+      width: 160px;
+      height: 49px;
+    }
+  }
+
+  .logo svg
+  {
+    width: 100%;
+    height: 100%;
+  }
+
+.languages
+{
+  float: right;
+}
+
+.lggnav
+{
+  @extend %list-bare;
+  margin-top: .25em;
+}
+
+  .lggnav__item
+  {
+    display: inline-block;
+    margin-left: .25em;
+
+    @include mq(medium)
+    {
+      margin-left: .5em;
+    }
+  }
+
+  .lggnav__item:first-of-type
+  {
+    margin-left: 0;
+  }
+
+  .lggnav__item > a
+  {
+    display: inline-block;
+    padding: .25em .7em;
+    border: 1px solid $color-main-light2;
+    border-radius: .2em;
+    @include rem-size(12px);
+    text-decoration: none;
+    color: $color-main-dark3;
+
+    @include mq(medium)
+    {
+      @include rem-size(14px);
+      padding: .35em .55em;
+    }
+
+    &:hover
+    {
+      color: $color-accent;
+    }
+  }
+
+  .lggnav__item--current > a, .lggnav__item--current > a:hover
+  {
+    border: none;
+    background: $color-accent;
+    color: #fff;
+  }

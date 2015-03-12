@@ -1,0 +1,95 @@
+/* -------------------------- *\
+=icons
+\* -------------------------- */
+
+/* =inline icons
+============================= */
+
+/*
+ * standalone icons work with a single SVG sprite
+ * not possible to apply CSS effects to those
+ *
+**/
+
+.inline-icon
+{
+  vertical-align: middle;
+}
+
+.inline-icon--paddright
+{
+  margin-right: 5px;
+}
+
+/* =standalone icons
+============================= */
+
+/*
+ * standalone icons work with inline SVGs
+ * each icon has two components (circle and content)
+ * CSS is used to target and style those elements
+ *
+**/
+
+a .icon__circle, a .icon__content
+{
+  transition: all 0.2s linear;
+}
+
+// icons
+.icon
+{
+  .icon__circle
+  {
+    stroke: $color-main-light2;
+    fill: transparent;
+  }
+
+  .icon__content
+  {
+    fill: $color-main-light3;
+  }
+}
+
+a:hover .icon
+{
+  .icon__circle
+  {
+    stroke: $color-accent;
+    fill: $color-accent;
+  }
+
+  .icon__content
+  {
+    fill: #fff;
+  }
+}
+
+// icons light
+.icon--light
+{
+  .icon__circle
+  {
+    stroke: #fff;
+    fill: transparent;
+  }
+
+  .icon__content
+  {
+    fill: #fff;
+  }
+}
+
+a:hover .icon--light
+{
+  .icon__circle
+  {
+    stroke: #fff;
+    fill: #fff;
+  }
+
+  .icon__content
+  {
+    fill: $color-accent;
+  }
+}

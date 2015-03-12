@@ -1,0 +1,74 @@
+/* -------------------------- *\
+=lists
+\* -------------------------- */
+
+
+/* =spaced lists
+============================= */
+
+.list-spaced > li
+{
+  margin-bottom: calc-em(30px);
+
+  &:last-child
+  {
+    margin-bottom: 0;
+  }
+}
+
+
+/* =icon lists
+============================= */
+
+.list-icons
+{
+  @extend %list-bare;
+}
+
+.list-icons > li
+{
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  margin-right: 5px;
+
+  &:last-child
+  {
+    margin-right: 0;
+  }
+}
+
+.list-icons a
+{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* =values
+============================= */
+.values > li
+{
+  margin-bottom: 1em;
+}
+
+/* =list contact
+============================= */
+.list-contact
+{
+  @extend %list-bare;
+}
+
+.list-contact > li
+{
+  margin: .25em 0;
+}
+
+.list-contact a
+{
+  color: $color-main-dark2;
+
+  &:hover
+  {
+  }
+}
