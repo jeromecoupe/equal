@@ -3,8 +3,8 @@ title: "EQUAL - Law for better living"
 email: "hello@equal-partners.eu"
 description: > # this means to ignore newlines until "baseurl:"
   EQUAL is a new breed of Law Firm. We believe our sector has to adapt to meet the challenges of our time.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://localhost:3000" # the base hostname & protocol for your site
+baseurl: "/equal" # the subpath of your site, e.g. /blog
+url: "http://www.webstoemp.com" # the base hostname & protocol for your site
 twitter_username: "equal_partners"
 github_username: "jeromecoupe"
 
