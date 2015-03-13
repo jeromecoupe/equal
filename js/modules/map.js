@@ -97,6 +97,11 @@ var Map = (function(){
         icon: markerImg
     });
 
+    // click event on marker
+    google.maps.event.addListener(mapMarker, 'click', function() {
+      window.location.href = 'http://www.google.com';
+    });
+
     //recenter map on resize
     google.maps.event.addDomListener(window, 'resize', function() {
       var center = map.getCenter();
