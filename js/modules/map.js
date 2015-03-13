@@ -7,7 +7,7 @@ var Map = (function(){
   var mapContainer;
 
   // map config
-  var mapLatLong = new google.maps.LatLng(50.8276,4.3726);
+  var mapLatLong = new google.maps.LatLng(50.8270,4.3726);
   var mapConfig = {
     center: mapLatLong,
     zoom: 16,
@@ -99,7 +99,7 @@ var Map = (function(){
 
     // click event on marker
     google.maps.event.addListener(mapMarker, 'click', function() {
-      window.location.href = 'http://www.google.com';
+      window.location.href = 'https://goo.gl/maps/SPzd3';
     });
 
     //recenter map on resize
