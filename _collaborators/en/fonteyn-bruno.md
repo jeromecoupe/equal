@@ -2,7 +2,7 @@
 language: "en"
 surname: "Bruno"
 name: "Fonteyn"
-position: "Avocat"
+position: "Avocat associé"
 image: "bruno_fonteyn.jpg"
 phone:
   display: "+32 2 899 9814"

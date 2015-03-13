@@ -2,7 +2,7 @@
 language: "fr"
 surname: "Christophe"
 name: "Dubois"
-position: "Avocat"
+position: "Avocat associé"
 image: "christophe_dubois.jpg"
 phone:
   display: "+32 2 899 9803"
