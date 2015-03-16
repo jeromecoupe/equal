@@ -1,4 +1,4 @@
-{% assign items = site.collaborators | where:'language', include.language | sort: 'name', 'first' %}
+{% assign items = site.collaborators | where:'language', include.language | sort: 'name|downcase', 'first' %}
 {% for item in items %}
     {% if forloop.first %}<ul class="list-spaced  grid"><li class="grid__unit  small-span-6of12  large-span-4of12">{% endif %}
 
