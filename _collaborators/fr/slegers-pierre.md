@@ -14,4 +14,4 @@ contacts:
 - email: "pierre.slegers@equal-partners.eu"
 - linkedin: "http://be.linkedin.com/pub/pierre-slegers/1/5a1/781/en"
 ---
-Pierre Slegers est spécialisé en droit constitutionnel et administratif, plus particulièrement en contentieux constitutionnel, sécurité sociale, santé publique en ce compris les matières afférentes à la régulation, les hôpitaux, les dispositifs médicaux, les aliments et les nutriments et autres domaines relatifs aux sciences de la vie. Il intervient régulièrement dans des affaires concernant la chimie (y compris les réglementations REACH).
+Après une expérience commerciale dans l’industrie chimique, Pierre est avocat au barreau de Bruxelles depuis 2002. Il a développé une pratique dans les domaines de la régulation et du financement des soins de santé et de la sécurité sociale. Il conseille pouvoirs publics, entreprises et particuliers dans la réalisation durable de leurs projets en prenant en compte la réglementation ainsi que le cadre institutionnel et sectoriel dans lequel ces projets se développent.
