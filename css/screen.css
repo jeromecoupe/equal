@@ -1034,20 +1034,18 @@ a {
   padding: 0;
   color: #19191A;
   font-weight: 400;
-  font-size: 24px;
-  font-size: 1.5rem; }
+  font-size: 21px;
+  font-size: 1.3125rem; }
   @media all and (min-width:47.5em) {
+    .homebanner__tagline {
+      font-size: 24px;
+      font-size: 1.5rem; } }
+  @media all and (min-width:64em) {
     .homebanner__tagline {
       font-size: 36px;
       font-size: 2.25rem; } }
-  @media all and (min-width:64em) {
-    .homebanner__tagline {
-      font-size: 42px;
-      font-size: 2.625rem; } }
 
 .homebanner__motto {
-  position: relative;
-  /* positioning context for arrow */
   margin: 0;
   padding: 0 0 30px 0;
   font-size: 18px;
