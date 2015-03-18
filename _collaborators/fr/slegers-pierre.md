@@ -7,9 +7,6 @@ image: "pierre_slegers.jpg"
 phone:
   display: "+32 2 899 9813"
   number: "003228999813"
-gsm:
-  display: "+32 477 77 93 53"
-  number: "0032477779353"
 contacts:
 - email: "pierre.slegers@equal-partners.eu"
 - linkedin: "http://be.linkedin.com/pub/pierre-slegers/1/5a1/781/en"

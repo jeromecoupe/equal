@@ -7,9 +7,6 @@ image: "celine_vannieuwenhuysen.jpg"
 phone:
   display: "+32 2 899 9816"
   number: "003228999816"
-gsm:
-  display: "+32 472 069 660"
-  number: "0032472069660"
 contacts:
 - email: "celine.vannieuwenhuysen@equal-partners.eu"
 - linkedin: "http://be.linkedin.com/pub/c%C3%A9line-vannieuwenhuysen/13/22/b03/en"

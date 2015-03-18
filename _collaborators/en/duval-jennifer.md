@@ -7,9 +7,6 @@ image: "jennifer_duval.jpg"
 phone:
   display: "+32 2 899 9805"
   number: "003228999805"
-gsm:
-  display: "+32 473 78 99 15"
-  number: "0032473789915"
 contacts:
 - email: "jennifer.duval@equal-partners.eu"
 ---

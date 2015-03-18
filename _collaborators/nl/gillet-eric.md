@@ -7,9 +7,6 @@ image: "eric_gillet.jpg"
 phone:
   display: "+32 2 899 9802"
   number: "003228999802"
-gsm:
-  display: "+32 477 38 11 64"
-  number: "0032477381164"
 contacts:
 - email: "eric.gillet@equal-partners.eu"
 - linkedin: "http://be.linkedin.com/pub/eric-gillet/47/473/857/en"

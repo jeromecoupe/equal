@@ -1,4 +1,3 @@
-
 ---
 language: "en"
 surname: "Bijou"

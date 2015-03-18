@@ -10,14 +10,9 @@
             {{ item.content }}
           </div>
 
-          {% if item.phone or item.gsm %}
+          {% if item.phone %}
             <div class="team-member__phones">
-              {% if item.phone %}
-                <p>Tel: <a href="tel:{{ item.phone.number }}">{{ item.phone.display }}</a></p>
-              {% endif %}
-              {% if item.gsm %}
-               <p>Gsm: <a href="tel:{{ item.gsm.number }}">{{ item.gsm.display }}</a></p>
-              {% endif %}
+              <p>Tel: <a href="tel:{{ item.phone.number }}">{{ item.phone.display }}</a></p>
             </div>
           {% endif %}
 

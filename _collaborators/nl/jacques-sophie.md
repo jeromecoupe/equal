@@ -7,9 +7,6 @@ image: "sophie_jacques.jpg"
 phone:
   display: "+32 2 899 9812"
   number: "003228999812"
-gsm:
-  display: "+32 473 66 07 47"
-  number: "0032473660747"
 contacts:
 - email: "sophie.jacques@equal-partners.eu"
 - linkedin: "http://be.linkedin.com/pub/sophie-jacques/43/abb/b19/fr"

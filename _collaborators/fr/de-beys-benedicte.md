@@ -7,9 +7,6 @@ image: "benedicte_debeys.jpg"
 phone:
   display: "+32 2 899 9804"
   number: "003228999804"
-gsm:
-  display: "+32 496 34 01 48"
-  number: "0032496340148"
 contacts:
 - email: "benedicte.debeys@equal-partners.eu"
 - linkedin: "http://be.linkedin.com/pub/b%C3%A9n%C3%A9dicte-de-beys/1/579/815/en"
