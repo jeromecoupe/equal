@@ -937,11 +937,11 @@ a {
 .logo > a {
   display: block;
   width: 120px;
-  height: 37px; }
+  height: 48px; }
   @media all and (min-width:47.5em) {
     .logo > a {
       width: 160px;
-      height: 49px; } }
+      height: 65px; } }
 
 .logo svg {
   width: 100%;
@@ -951,7 +951,7 @@ a {
   float: right; }
 
 .lggnav {
-  margin-top: .25em; }
+  margin-top: 1em; }
 
 .lggnav__item {
   display: inline-block;
@@ -1032,7 +1032,7 @@ a {
 .homebanner__tagline {
   margin: 0 0 .5em 0;
   padding: 0;
-  color: #19191A;
+  color: #4C4D4F;
   font-weight: 400;
   font-size: 24px;
   font-size: 1.5rem; }
