@@ -1034,12 +1034,12 @@ a {
   padding: 0;
   color: #19191A;
   font-weight: 400;
-  font-size: 21px;
-  font-size: 1.3125rem; }
+  font-size: 24px;
+  font-size: 1.5rem; }
   @media all and (min-width:47.5em) {
     .homebanner__tagline {
-      font-size: 24px;
-      font-size: 1.5rem; } }
+      font-size: 28px;
+      font-size: 1.75rem; } }
   @media all and (min-width:64em) {
     .homebanner__tagline {
       font-size: 36px;
