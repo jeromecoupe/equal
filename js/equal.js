@@ -59,7 +59,7 @@ var Map = (function(){
     },{
       "featureType": "water",
       "stylers": [
-        { "color": "#656769" }
+        { "color": "#B2B3B5" }
       ]
     }
   ];
