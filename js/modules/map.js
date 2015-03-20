@@ -11,7 +11,7 @@ var Map = (function(){
   var mapConfig = {
     center: mapLatLong,
     zoom: 16,
-    draggable: true,
+    draggable: false,
     disableDoubleClickZoom: false,
     scrollwheel: false,
     panControl: false,
