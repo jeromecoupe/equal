@@ -11,4 +11,4 @@ contacts:
 - email: "valentine.defrancquen@equal-partners.eu"
 - linkedin: "http://be.linkedin.com/in/valentinedefrancquen/en"
 ---
-Valentine De Francquen est spécialisée dans les marchés publics. Dans sa pratique journalière des contrats publics, elle conseille les autorités publiques et les opérateurs économiques pour la conception des opérations, leur mise en œuvre ou pour les aspects de contentieux. Dans ces domaines, Valentine s’occupe des négociations, de la conclusion de transactions et des contentieux. Elle donne également régulièrement des formations sur les marchés publics.
+Avocate depuis 2003, Valentine est spécialisée dans les marchés publics. Elle traite les questions relatives à la conception des marchés, leur passation et leur exécution. Dans ce cadre, elle conseille tant les pouvoirs adjudicateurs que les entreprises. Valentine a une grande expérience en contentieux, mais elle cherchera, dans la mesure du possible, à privilégier une solution amiable. Elle publie et donne régulièrement des formations sur les marchés publics.
