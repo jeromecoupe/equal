@@ -1,6 +1,6 @@
 ---
 language: "fr"
-surname: "Celine"
+surname: "Céline"
 name: "Pouppez"
 position: "Avocat associé"
 image: "celine_pouppez.jpg"
