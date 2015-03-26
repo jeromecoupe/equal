@@ -124,7 +124,7 @@ gulp.task('spritesvg', function () {
 gulp.task('watch', ['browser-sync'], function () {
   gulp.watch('./scss/**/*', ['css']);
   gulp.watch('./js/**/*', ['jslint', 'scripts']);
-  gulp.watch(['_collaborators/**/*','_includes/**/*','_layouts/**/*','fr/**/*','nl/**/*','index.html'], ['jekyll']);
+  gulp.watch(['_collaborators/**/*','_includes/**/*','_layouts/**/*','en/**/*','nl/**/*','index.html'], ['jekyll']);
 });
 
 // Tasks
