@@ -2,7 +2,7 @@
 language: "en"
 surname: "Christophe"
 name: "Dubois"
-position: "Avocat associé"
+position: "Associate Lawyer"
 image: "christophe_dubois.jpg"
 phone:
   display: "+32 2 899 9803"
@@ -11,4 +11,4 @@ contacts:
 - email: "christophe.dubois@equal-partners.eu"
 - linkedin: "http://be.linkedin.com/pub/christophe-dubois/6/a59/396/en"
 ---
-Ancien chercheur, assistant et professeur, Christophe Dubois est avocat depuis 2003. Ses matières de prédilection sont l’économie publique, l’organisation des services publics, les Partenariats Public-Privé, les concessions et les aspects de déconsolidation de la dette (SEC 2010). Il s'intéresse particulièrement à la commande publique (rédaction de cahiers spéciaux des charges, assistance à des pouvoirs adjudicateurs à l’attribution de marché) dans ses relations avec le droit de la santé.
+Christophe Dubois, formerly a researcher, teaching assistant and professor, has been a lawyer since 2003. His subjects of choice are the public economy, the organisation of public services, Public-Private Partnerships, awards and aspects of debt deconsolidation (SEC 2010). He has a particular interest in public procurement related to health law (for example, drawing up particular specifications and assisting contracting authorities in awarding contracts).

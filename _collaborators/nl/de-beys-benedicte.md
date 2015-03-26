@@ -2,7 +2,7 @@
 language: "nl"
 surname: "Bénédicte"
 name: "De Beys"
-position: "Avocat associé"
+position: "Advocaat-partner"
 image: "benedicte_debeys.jpg"
 phone:
   display: "+32 2 899 9804"
@@ -11,4 +11,4 @@ contacts:
 - email: "benedicte.debeys@equal-partners.eu"
 - linkedin: "http://be.linkedin.com/pub/b%C3%A9n%C3%A9dicte-de-beys/1/579/815/en"
 ---
-Bénédicte a travaillé pour un Echevin de la Ville de Bruxelles avant de rejoindre le barreau de Bruxelles et d'intégrer l'équipe de droit public du cabinet Eubelius. Elle a ensuite travaillé aux côtés de Maître Gillet chez CMS DeBacker et s’est ainsi spécialisée en droit public économique. Elle collabore dans ces matières dans ces matières des cabinets ministériels, des organismes et services publics ou encore des opérateur économiques.
+Bénédicte heeft eerst gewerkt voor een schepen van de Stad Brussel. Daarna heeft ze zich aangesloten bij de balie van Brussel en het team Publiek recht van het advocatenkantoor Eubelius versterkt. Vervolgens werkte ze aan de zijde van mr. Gillet bij CMS DeBacker, waarbij ze zich gespecialiseerd heeft in publiek economisch recht. Ze werkt voor deze materies samen met kabinetten van ministers, overheidsinstanties en diensten en economische operatoren.

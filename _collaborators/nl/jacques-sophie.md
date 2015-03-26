@@ -2,7 +2,7 @@
 language: "nl"
 surname: "Sophie"
 name: "Jacques"
-position: "Avocat"
+position: "Advocaat"
 image: "sophie_jacques.jpg"
 phone:
   display: "+32 2 899 9812"
@@ -11,4 +11,4 @@ contacts:
 - email: "sophie.jacques@equal-partners.eu"
 - linkedin: "http://be.linkedin.com/pub/sophie-jacques/43/abb/b19/fr"
 ---
-Sophie Jacques est inscrite depuis septembre 2012 au barreau de Bruxelles. Elle se spécialise en droit administratif et plus particulièrement en marchés publics. Dans cette matière, Sophie conseille les autorités publiques et les entreprises privées, aussi bien au niveau de la conception des opérations que dans l'exécution des marchés. Sophie traite également des aspects contentieux.
+Sophie is sinds september 2012 ingeschreven bij de balie van Brussel. Ze specialiseert zich in administratief recht en meer bepaald in overheidsopdrachten. In deze materie adviseert Sophie overheden en private ondernemingen bij de uitwerking van de initiatieven en de uitvoering van de overeenkomsten. Sophie staat cliënten ook bij in geschillen.

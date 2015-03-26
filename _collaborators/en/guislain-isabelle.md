@@ -2,7 +2,7 @@
 language: "en"
 surname: "Isabelle"
 name: "Guislain"
-position: "Assistante"
+position: "Assistant"
 image: "isabelle_guislain.jpg"
 phone:
   display: "+32 2 899 9818"
@@ -10,4 +10,4 @@ phone:
 contacts:
 - email: "isabelle.guislain@equal-partners.eu"
 ---
-Forte d’une expérience professionnelle de 25 ans, Isabelle Guislain est une secrétaire de Direction polyvalente, proactive, rigoureuse et autonome. Depuis 15 ans, sa carrière s’est orientée vers le domaine juridique où elle a eu l’occasion de se familiariser avec différents aspects du droit et, plus spécifiquement, avec le droit public et administratif et le droit de la santé.
+With 25 years of professional experience under her belt, Isabelle Guislain is a multi-skilled, proactive, detail-oriented management secretary, capable of working on her own initiative. Fifteen years ago, she began to focus her career in the legal field and has since become familiar with various aspects of the law, particularly public and administrative law and health law.

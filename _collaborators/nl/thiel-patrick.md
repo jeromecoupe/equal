@@ -2,7 +2,7 @@
 language: "nl"
 surname: "Patrick"
 name: "Thiel"
-position: "Avocat associé"
+position: "Advocaat-partner"
 image: "patrick_thiel.jpg"
 phone:
   display: "+32 2 899 9808"
@@ -11,4 +11,4 @@ contacts:
 - email: "patrick.thiel@equal-partners.eu"
 - linkedin: "http://be.linkedin.com/pub/patrick-thiel/49/b80/b05/fr"
 ---
-Patrick Thiel est actif dans la conception, la réalisation et la défense dans les marchés publics, les concessions et PPP, y compris dans l'exécution des contrats et dans le contentieux: rédaction de documents de marché, négociation d'opérations complexes, analyse, attribution et  suivi des commandes, missions d’audit. Dans le domaine de la santé, il assiste les hôpitaux: financement, restructuration, construction & rénovations, fusion, gestion du personnel, agréments, etc.
+Patrick is actief in het ontwerp, de realisatie en de verdediging van overheidsopdrachten, concessies en PPS, met inbegrip van de uitvoering van overeenkomsten en de geschillenbeslechting: opmaak van de documenten voor overheidsopdrachten, onderhandelen over complexe overeenkomsten, analyse, gunning en follow-up van de opdrachten, en auditprojecten. In het domein gezondheidsrecht staat hij ziekenhuizen bij: financiering, herstructurering, bouw & renovaties, fusie, personeelsbeheer, goedkeuringen enz.

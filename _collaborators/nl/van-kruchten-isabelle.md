@@ -2,7 +2,7 @@
 language: "nl"
 surname: "Isabelle"
 name: "van Kruchten"
-position: "Avocat associé"
+position: "Advocaat-partner"
 image: "isabelle_vankruchten.jpg"
 phone:
   display: "+32 2 899 9810"
@@ -11,4 +11,4 @@ contacts:
 - email: "isabelle.vankruchten@equal-partners.eu"
 - linkedin: "http://be.linkedin.com/pub/isabelle-van-kruchten/21/154/13a/en"
 ---
-Isabelle Van Kruchten centre l'essentiel de sa pratique sur la commande publique et tous ses aspects (passation, exécution, contentieux et aspects pénaux). Dans ce cadre, elle assiste tant les pouvoirs publics que les entreprises privées. Elle publie et participe régulièrement à des séminaires sur ces sujets. Cette pratique lui a également permis de développer une expertise en subventions (nationales et européennes), en droit de la construction en général et en droit de la santé.
+Isabelle legt zich voornamelijk toe op overheidsopdrachten en alles wat hierbij komt kijken (gunning, uitvoering, geschillen en strafrechtelijke aspecten). In dit kader adviseert ze zowel de aanbestedende overheden als de private ondernemingen. Ze heeft diverse publicaties op haar naam staan en neemt regelmatig deel aan seminars rond deze thema's. Gaandeweg heeft ze ook expertise opgebouwd inzake (nationale en Europese) subsidies, algemeen bouwrecht en gezondheidsrecht.

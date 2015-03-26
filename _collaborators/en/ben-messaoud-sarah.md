@@ -2,7 +2,7 @@
 language: "en"
 surname: "Sarah"
 name: "Ben Messaoud"
-position: "Avocat associé"
+position: "Associate Lawyer"
 image: "sarah_benmessaoud.jpg"
 phone:
   display: "+32 2 899 9811"
@@ -11,4 +11,4 @@ contacts:
 - email: "sarah.benmessaoud@equal-partners.eu"
 - linkedin: "http://be.linkedin.com/pub/ben-messaoud-sarah/65/499/157/en"
 ---
-Avocate au Barreau de Bruxelles depuis 2008, Sarah Ben Messaoud pratique le droit administratif et le droit constitutionnel: droit de l’expropriation publique, droit de l’urbanisme, droit du logement et droit de la fonction publique. Sarah développe essentiellement ses activités en droit de la santé et en droit de la commande publique en assistant pouvoirs publics et acteurs privés tant au stade de la conception des marchés et de leur attribution qu’au stade de leur exécution.
+A lawyer at the Brussels Bar since 2008, Sarah Ben Messaoud practices administrative and constitutional law: public expropriation law, urban planning law, housing law and public service law. Sarah mainly focuses her activity on health law and public procurement law by assisting public authorities and private stakeholders at every stage from drafting public tenders through to their award and performance.

@@ -90,7 +90,7 @@ var Map = (function(){
     map.setOptions({styles: design});
 
     // set and apply marker
-    var markerImg = 'img/icon_map.png';
+    var markerImg = '/img/icon_map.png';
     var mapMarker = new google.maps.Marker({
         position: mapLatLong,
         map: map,

@@ -2,7 +2,7 @@
 language: "nl"
 surname: "Valentine"
 name: "de Francquen"
-position: "Avocat associé"
+position: "Advocaat-partner"
 image: "valentine_defrancquen.jpg"
 phone:
   display: "+32 2 899 9809"
@@ -11,4 +11,4 @@ contacts:
 - email: "valentine.defrancquen@equal-partners.eu"
 - linkedin: "http://be.linkedin.com/in/valentinedefrancquen/en"
 ---
-Valentine De Francquen est spécialisée dans les marchés publics. Dans sa pratique journalière des contrats publics, elle conseille les autorités publiques et les opérateurs économiques pour la conception des opérations, leur mise en œuvre ou pour les aspects de contentieux. Dans ces domaines, Valentine s’occupe des négociations, de la conclusion de transactions et des contentieux. Elle donne également régulièrement des formations sur les marchés publics.
+Valentine is advocate sinds 2003 en gespecialiseerd in overheidsopdrachten. Ze behandelt kwesties betreffende het opstellen, gunnen en de uitvoeren van overheidsopdrachten. In dit kader adviseert ze zowel de aanbestedende overheden als de ondernemingen. Valentine heeft een ruime ervaring in geschillenbeslechting, maar streeft zo veel mogelijk naar minnelijke oplossingen. Ze heeft diverse publicaties over overheidsopdrachten op haar naam staan en geeft regelmatig ook opleidingen rond dit thema.

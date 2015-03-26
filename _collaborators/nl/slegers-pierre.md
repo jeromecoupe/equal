@@ -2,7 +2,7 @@
 language: "nl"
 surname: "Pierre"
 name: "Slegers"
-position: "Avocat associé"
+position: "Advocaat-partner"
 image: "pierre_slegers.jpg"
 phone:
   display: "+32 2 899 9813"
@@ -11,4 +11,4 @@ contacts:
 - email: "pierre.slegers@equal-partners.eu"
 - linkedin: "http://be.linkedin.com/pub/pierre-slegers/1/5a1/781/en"
 ---
-Pierre Slegers est spécialisé en droit constitutionnel et administratif, plus particulièrement en contentieux constitutionnel, sécurité sociale, santé publique en ce compris les matières afférentes à la régulation, les hôpitaux, les dispositifs médicaux, les aliments et les nutriments et autres domaines relatifs aux sciences de la vie. Il intervient régulièrement dans des affaires concernant la chimie (y compris les réglementations REACH).
+Na een commerciële functie in de chemiesector is Pierre sinds 2002 advocaat aan de balie van Brussel. Hij heeft ervaring met de reglementering en financiering van de gezondheidszorg en de sociale zekerheid. Pierre adviseert overheden, ondernemingen en particulieren bij de duurzame realisatie van hun projecten. Hij houdt hierbij rekening met de wetgeving en het institutionele en sectorale kader van deze projecten.

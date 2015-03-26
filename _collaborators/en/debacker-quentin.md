@@ -2,7 +2,7 @@
 language: "en"
 surname: "Quentin"
 name: "Debacker"
-position: "Avocat"
+position: "Lawyer"
 image: "quentin_debacker.jpg"
 phone:
   display: "+32 2 899 9806"
@@ -10,4 +10,4 @@ phone:
 contacts:
 - email: "quentin.debacker@equal-partners.eu"
 ---
-Quentin a débuté sa carrière au Barreau de Bruxelles en 2014. Après avoir travaillé 1 an chez CMS Debacker, il a décidé de participer à la création d’Equal. Quentin a étudié le droit aux Facultés Universitaire Saint Louis et à l’université de Gand. Il est également titulaire d’un master en Sciences politiques de l’UCL. Quentin pratique le droit administratif et le droit de l’environnement. 
+Quentin began his career at the Brussels Bar in 2014. Having worked for a year at CMS DeBacker, he decided to be part of setting up EQUAL. Quentin studied Law at Saint-Louis University, Brussels and at the University of Ghent. He also holds a Masters in Political Science from UCL. Quentin practices administrative and environmental law.

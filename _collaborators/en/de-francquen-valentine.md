@@ -2,7 +2,7 @@
 language: "en"
 surname: "Valentine"
 name: "de Francquen"
-position: "Avocat associé"
+position: "Associate Lawyer"
 image: "valentine_defrancquen.jpg"
 phone:
   display: "+32 2 899 9809"
@@ -11,4 +11,4 @@ contacts:
 - email: "valentine.defrancquen@equal-partners.eu"
 - linkedin: "http://be.linkedin.com/in/valentinedefrancquen/en"
 ---
-Valentine De Francquen est spécialisée dans les marchés publics. Dans sa pratique journalière des contrats publics, elle conseille les autorités publiques et les opérateurs économiques pour la conception des opérations, leur mise en œuvre ou pour les aspects de contentieux. Dans ces domaines, Valentine s’occupe des négociations, de la conclusion de transactions et des contentieux. Elle donne également régulièrement des formations sur les marchés publics.
+A lawyer since 2003, Valentine specialises in public procurement. She deals with cases relating to drafting public tenders, through to contracting and performance. In this capacity she advises contracting authorities and companies. Valentine has sound experience in litigation but always favours, wherever possible, seeking an amicable solution. She publishes and regularly gives training on public procurement contracts.

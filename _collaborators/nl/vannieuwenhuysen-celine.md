@@ -2,7 +2,7 @@
 language: "nl"
 surname: "Céline"
 name: "Vannieuwenhuysen"
-position: "Avocat"
+position: "Advocaat"
 image: "celine_vannieuwenhuysen.jpg"
 phone:
   display: "+32 2 899 9816"
@@ -11,4 +11,4 @@ contacts:
 - email: "celine.vannieuwenhuysen@equal-partners.eu"
 - linkedin: "http://be.linkedin.com/pub/c%C3%A9line-vannieuwenhuysen/13/22/b03/en"
 ---
-Céline Vannieuwenhuysen est spécialisée en droit public et administratif avec un intérêt particulier pour le droit administratif de la santé. Dans sa pratique quotidienne, elle conseille, supporte et représente des acteurs publics et privés dans leurs procédures devant la Cour Constitutionnelle, le Conseil d'Etat et les tribunaux civils, et ce dans tous les aspects du droit public et du droit administratif.
+Céline is gespecialiseerd in publiek en administratief recht, met een bijzondere interesse in administratief gezondheidsrecht. Ze adviseert, ondersteunt en vertegenwoordigt publieke en private actoren bij hun procedures voor het Constitutionele Hof, de Raad van State en de burgerlijke rechtbanken, en dat voor alle aspecten van publiek en administratief recht.
