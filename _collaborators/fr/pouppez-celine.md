@@ -2,7 +2,7 @@
 language: "fr"
 surname: "Céline"
 name: "Pouppez"
-position: "Avocat associé"
+position: "Avocate associée"
 image: "celine_pouppez.jpg"
 phone:
   display: "+32 2 899 9815"

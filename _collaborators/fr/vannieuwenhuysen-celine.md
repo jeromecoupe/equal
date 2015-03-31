@@ -2,7 +2,7 @@
 language: "fr"
 surname: "Céline"
 name: "Vannieuwenhuysen"
-position: "Avocat"
+position: "Avocate"
 image: "celine_vannieuwenhuysen.jpg"
 phone:
   display: "+32 2 899 9816"

@@ -2,7 +2,7 @@
 language: "fr"
 surname: "Valentine"
 name: "de Francquen"
-position: "Avocat associé"
+position: "Avocate associée"
 image: "valentine_defrancquen.jpg"
 phone:
   display: "+32 2 899 9809"

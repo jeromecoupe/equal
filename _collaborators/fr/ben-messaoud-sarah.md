@@ -2,7 +2,7 @@
 language: "fr"
 surname: "Sarah"
 name: "Ben Messaoud"
-position: "Avocat associé"
+position: "Avocate associée"
 image: "sarah_benmessaoud.jpg"
 phone:
   display: "+32 2 899 9811"

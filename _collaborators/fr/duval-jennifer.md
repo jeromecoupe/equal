@@ -2,7 +2,7 @@
 language: "fr"
 surname: "Jennifer"
 name: "Duval"
-position: "Avocat"
+position: "Avocate"
 image: "jennifer_duval.jpg"
 phone:
   display: "+32 2 899 9805"

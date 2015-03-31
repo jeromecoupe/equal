@@ -2,7 +2,7 @@
 language: "fr"
 surname: "Sophie"
 name: "Jacques"
-position: "Avocat"
+position: "Avocate"
 image: "sophie_jacques.jpg"
 phone:
   display: "+32 2 899 9812"

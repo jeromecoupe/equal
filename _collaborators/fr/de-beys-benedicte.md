@@ -2,7 +2,7 @@
 language: "fr"
 surname: "Bénédicte"
 name: "De Beys"
-position: "Avocat associé"
+position: "Avocate associée"
 image: "benedicte_debeys.jpg"
 phone:
   display: "+32 2 899 9804"
