@@ -3,10 +3,15 @@
   "version": "1.0.0",
   "description": "Equal static Website",
   "author": "Jérôme Coupé",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeromecoupe/equal"
+  },
+  "license": "MIT",
   "devDependencies": {
     "browser-sync": "2.2.x",
-    "cheerio": "^0.18.0",
-    "gulp": "3.8.x",
+    "cheerio": "0.18.x",
+    "gulp": "3.9.x",
     "gulp-autoprefixer": "2.1.x",
     "gulp-base64": "0.1.x",
     "gulp-concat": "2.5.x",
