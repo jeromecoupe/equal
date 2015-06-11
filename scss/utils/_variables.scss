@@ -25,6 +25,9 @@ $mq-list:   "under-small"	  "(max-width:37.49em)"     false,
             "large"         "(min-width:64em)"         true,
             "xlarge"        "(min-width:71.25em)"      true;
 
+$use-pushclasses: true;
+$use-pullclasses: true;
+
 /*------------------------------------*\
 =typography
 \*------------------------------------*/

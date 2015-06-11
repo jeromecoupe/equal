@@ -40,6 +40,16 @@ html
     color: $color-accent;
   }
 
+  .h1--ondark
+  {
+    color: #fff;
+
+    span
+    {
+      color: $color-main1;
+    }
+  }
+
 .h2
 {
   @extend %title;
@@ -157,3 +167,8 @@ a
       padding: 0 percentage(80/920);
     }
   }
+
+.textondark
+{
+  color: $color-main2;
+}
