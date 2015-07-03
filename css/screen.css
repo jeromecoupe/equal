@@ -1,5 +1,4 @@
-/*------------------------------------*\
-=media object
+/*------------------------------------*=media object
 \*------------------------------------*/
 .media__img {
   float: left;
@@ -12,16 +11,17 @@
 .media__body {
   overflow: hidden; }
 
-/*------------------------------------*\
-=helpers
+/*------------------------------------*=helpers
 \*------------------------------------*/
 /* =clearfix
 ##################################### */
 .media:before, .media:after, .clearfix:before, .clearfix:after {
   content: "";
   display: table; }
+
 .media:after, .clearfix:after {
   clear: both; }
+
 .lt-ie8 .media, .lt-ie8 .clearfix {
   min-height: 1%; }
 
@@ -49,11 +49,9 @@
   text-indent: -9999px;
   overflow: hidden; }
 
-/*------------------------------------*\
-=typography
+/*------------------------------------*=typography
 \*------------------------------------*/
-/*------------------------------------*\
-=media queries
+/*------------------------------------*=media queries
 \*------------------------------------*/
 /**
  * create media query for each breakpoint in list
@@ -61,8 +59,7 @@
  * - we check if passed breakpoint corresponds to something in mq-list
  * - all brekpoints are used here, including those specified as grid:false
  */
-/*------------------------------------*\
-=media queries
+/*------------------------------------*=media queries
 \*------------------------------------*/
 /**
 * Usage
@@ -80,11 +77,9 @@
 * - large:    1024px    64em
 * - xlarge:   1140px    71.25em
 */
-/*------------------------------------*\
-=typography
+/*------------------------------------*=typography
 \*------------------------------------*/
-/*------------------------------------*\
-=colors
+/*------------------------------------*=colors
 \*------------------------------------*/
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
@@ -114,14 +109,29 @@ body {
 * and Firefox.
 * Correct `block` display not defined for `main` in IE 11.
 */
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
   display: block; }
 
 /**
 * 1. Correct `inline-block` display not defined in IE 8/9.
 * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
 */
-audio, canvas, progress, video {
+audio,
+canvas,
+progress,
+video {
   display: inline-block;
   /* 1 */
   vertical-align: baseline;
@@ -139,7 +149,8 @@ audio:not([controls]) {
 * Address `[hidden]` styling not present in IE 8/9/10.
 * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
 */
-[hidden], template {
+[hidden],
+template {
   display: none; }
 
 /* Links
@@ -153,7 +164,8 @@ a {
 /**
 * Improve readability when focused and also mouse hovered in all browsers.
 */
-a:active, a:hover {
+a:active,
+a:hover {
   outline: 0; }
 
 /* Text-level semantics
@@ -167,7 +179,8 @@ abbr[title] {
 /**
 * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
 */
-b, strong {
+b,
+strong {
   font-weight: bold; }
 
 /**
@@ -200,7 +213,8 @@ small {
 /**
 * Prevent `sub` and `sup` affecting `line-height` in all browsers.
 */
-sub, sup {
+sub,
+sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
@@ -251,7 +265,10 @@ pre {
 /**
 * Address odd `em`-unit font size rendering in all browsers.
 */
-code, kbd, pre, samp {
+code,
+kbd,
+pre,
+samp {
   font-family: monospace, monospace;
   font-size: 1em; }
 
@@ -267,7 +284,11 @@ code, kbd, pre, samp {
 * 2. Correct font properties not being inherited.
 * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
 */
-button, input, optgroup, select, textarea {
+button,
+input,
+optgroup,
+select,
+textarea {
   color: inherit;
   /* 1 */
   font: inherit;
@@ -287,7 +308,8 @@ button {
 * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
 * Correct `select` style inheritance in Firefox.
 */
-button, select {
+button,
+select {
   text-transform: none; }
 
 /**
@@ -297,7 +319,9 @@ button, select {
 * 3. Improve usability and consistency of cursor style between image-type
 *    `input` and others.
 */
-button, html input[type="button"], input[type="reset"], input[type="submit"] {
+button,
+html input[type="button"], input[type="reset"],
+input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
   cursor: pointer;
@@ -306,13 +330,15 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 /**
 * Re-set default cursor for disabled elements.
 */
-button[disabled], html input[disabled] {
+button[disabled],
+html input[disabled] {
   cursor: default; }
 
 /**
 * Remove inner padding and border in Firefox 4+.
 */
-button::-moz-focus-inner, input::-moz-focus-inner {
+button::-moz-focus-inner,
+input::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
@@ -330,7 +356,8 @@ input {
 * 1. Address box sizing set to `content-box` in IE 8/9/10.
 * 2. Remove excess padding in IE 8/9/10.
 */
-input[type="checkbox"], input[type="radio"] {
+input[type="checkbox"],
+input[type="radio"] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
@@ -341,7 +368,8 @@ input[type="checkbox"], input[type="radio"] {
 * `font-size` values of the `input`, it causes the cursor style of the
 * decrement button to change from `default` to `text`.
 */
-input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
   height: auto; }
 
 /**
@@ -362,7 +390,8 @@ input[type="search"] {
 * Safari (but not Chrome) clips the cancel button when the search input has
 * padding (and `textfield` appearance).
 */
-input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
 /**
@@ -405,7 +434,8 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-td, th {
+td,
+th {
   padding: 0; }
 
 body {
@@ -414,12 +444,15 @@ body {
   background: #fff;
   color: #656769; }
 
-h1, h2, h3, h4, h5, h6, ul, ol, dd, p, figure, pre, table, fieldset, hr, form {
+h1, h2, h3, h4, h5, h6,
+ul, ol, dd,
+p, figure,
+pre, table, fieldset, hr,
+form {
   margin-top: 0;
   padding-top: 0; }
 
-/* -------------------------- *\
-=typography
+/* -------------------------- *=typography
 \* -------------------------- */
 html {
   font: normal 100%/1.4 "Source Sans Pro", Helvetica, Arial, sans-serif; }
@@ -427,7 +460,7 @@ html {
 /* =titles
 ############################# */
 .h1, .h2, .h3, .h4 {
-  margin: 0 0 .5em;
+  margin: 0 0 0.5em;
   padding: 0;
   font-weight: 300;
   color: #19191A; }
@@ -435,11 +468,11 @@ html {
 .h1 {
   font-size: 26px;
   font-size: 1.625rem; }
-  @media all and (min-width:47.5em) {
+  @media all and (min-width: 47.5em) {
     .h1 {
       font-size: 36px;
       font-size: 2.25rem; } }
-  @media all and (min-width:64em) {
+  @media all and (min-width: 64em) {
     .h1 {
       font-size: 48px;
       font-size: 3rem; } }
@@ -449,17 +482,18 @@ html {
 
 .h1--ondark {
   color: #fff; }
-  .h1--ondark span {
+  .h1--ondark
+span {
     color: #B2B3B5; }
 
 .h2 {
   font-size: 20px;
   font-size: 1.25rem; }
-  @media all and (min-width:47.5em) {
+  @media all and (min-width: 47.5em) {
     .h2 {
       font-size: 24px;
       font-size: 1.5rem; } }
-  @media all and (min-width:64em) {
+  @media all and (min-width: 64em) {
     .h2 {
       font-size: 36px;
       font-size: 2.25rem; } }
@@ -467,11 +501,11 @@ html {
 .h3 {
   font-size: 18px;
   font-size: 1.125rem; }
-  @media all and (min-width:47.5em) {
+  @media all and (min-width: 47.5em) {
     .h3 {
       font-size: 20px;
       font-size: 1.25rem; } }
-  @media all and (min-width:64em) {
+  @media all and (min-width: 64em) {
     .h3 {
       font-size: 24px;
       font-size: 1.5rem; } }
@@ -480,7 +514,7 @@ html {
   font-weight: 600;
   font-size: 18px;
   font-size: 1.125rem; }
-  @media all and (min-width:64em) {
+  @media all and (min-width: 64em) {
     .h4 {
       font-size: 20px;
       font-size: 1.25rem; } }
@@ -509,10 +543,12 @@ a {
 
 /* =links in footer
 ============================= */
-.pagefooter a {
+.pagefooter
+a {
   color: #323334;
   transition: all 0.2s linear; }
-  .pagefooter a:hover {
+  .pagefooter
+a:hover {
     color: #fff;
     color: rgba(255, 255, 255, 0.75);
     text-decoration: none; }
@@ -526,20 +562,19 @@ a {
   font-size: 1.125rem;
   font-weight: 300;
   color: #7F8184; }
-  @media all and (min-width:47.5em) {
+  @media all and (min-width: 47.5em) {
     .intro {
       font-size: 21px;
       font-size: 1.3125rem; } }
 
-@media all and (min-width:47.5em) {
+@media all and (min-width: 47.5em) {
   .intro--narrow {
     padding: 0 8.69565%; } }
 
 .textondark {
   color: #7F8184; }
 
-/*------------------------------------*\
-=grid
+/*------------------------------------*=grid
 \*------------------------------------*/
 /**
  *
@@ -892,7 +927,7 @@ a {
  * - using media queries defined in variables.scss
  *
  */
-@media all and (min-width:37.5em) {
+@media all and (min-width: 37.5em) {
   .small-span-full {
     width: 100%; }
   .small-span-1of10 {
@@ -1054,7 +1089,7 @@ a {
     position: relative;
     right: 91.66667%; } }
 
-@media all and (min-width:47.5em) {
+@media all and (min-width: 47.5em) {
   .medium-span-full {
     width: 100%; }
   .medium-span-1of10 {
@@ -1216,7 +1251,7 @@ a {
     position: relative;
     right: 91.66667%; } }
 
-@media all and (min-width:64em) {
+@media all and (min-width: 64em) {
   .large-span-full {
     width: 100%; }
   .large-span-1of10 {
@@ -1378,7 +1413,7 @@ a {
     position: relative;
     right: 91.66667%; } }
 
-@media all and (min-width:71.25em) {
+@media all and (min-width: 71.25em) {
   .xlarge-span-full {
     width: 100%; }
   .xlarge-span-1of10 {
@@ -1540,8 +1575,7 @@ a {
     position: relative;
     right: 91.66667%; } }
 
-/* -------------------------- *\
-=general layout
+/* -------------------------- *=general layout
 \* -------------------------- */
 /*
  *
@@ -1552,19 +1586,18 @@ a {
 **/
 .container {
   padding: 0 5%; }
-  @media all and (min-width:37.5em) {
+  @media all and (min-width: 37.5em) {
     .container {
       margin: 0 auto;
       padding: 0 9.64912%;
       max-width: 920px; } }
 
-@media all and (min-width:47.5em) {
+@media all and (min-width: 47.5em) {
   .container--narrow {
     padding: 0 17.54386%;
     max-width: 740px; } }
 
-/* -------------------------- *\
-=header
+/* -------------------------- *=header
 \* -------------------------- */
 /*= header (logo and languages)
 ================================= */
@@ -1573,7 +1606,7 @@ a {
 
 .pageheader__sup {
   padding: 1em 0; }
-  @media all and (min-width:37.5em) {
+  @media all and (min-width: 37.5em) {
     .pageheader__sup {
       padding: 2em 0; } }
 
@@ -1586,7 +1619,7 @@ a {
   display: block;
   width: 120px;
   height: 48px; }
-  @media all and (min-width:47.5em) {
+  @media all and (min-width: 47.5em) {
     .logo > a {
       width: 160px;
       height: 65px; } }
@@ -1604,7 +1637,7 @@ a {
 .lggnav__item {
   display: inline-block;
   margin-left: .25em; }
-  @media all and (min-width:47.5em) {
+  @media all and (min-width: 47.5em) {
     .lggnav__item {
       margin-left: .5em; } }
 
@@ -1613,18 +1646,18 @@ a {
 
 .lggnav__item > a {
   display: inline-block;
-  padding: .25em .7em;
+  padding: 0.25em 0.7em;
   border: 1px solid #EBECEC;
   border-radius: .2em;
   font-size: 12px;
   font-size: 0.75rem;
   text-decoration: none;
   color: #19191A; }
-  @media all and (min-width:47.5em) {
+  @media all and (min-width: 47.5em) {
     .lggnav__item > a {
       font-size: 14px;
       font-size: 0.875rem;
-      padding: .35em .55em; } }
+      padding: 0.35em 0.55em; } }
   .lggnav__item > a:hover {
     color: #AAB72C; }
 
@@ -1641,7 +1674,7 @@ a {
   height: 250px;
   width: 100%;
   background: #19191A; }
-  @media all and (min-width:47.5em) {
+  @media all and (min-width: 47.5em) {
     .pagefooter__map {
       height: 500px; } }
   .no-js .pagefooter__map {
@@ -1658,19 +1691,20 @@ a {
 .pagefooter__copyright {
   padding: 1.25em 0;
   border-top: 1px solid rgba(255, 255, 255, 0.45); }
-  @media all and (min-width:47.5em) {
+  @media all and (min-width: 47.5em) {
     .pagefooter__copyright {
       padding: 2.5em 0; } }
-  .pagefooter__copyright p {
+  .pagefooter__copyright
+p {
     margin: 0;
     padding: 0; }
 
 .homebanner {
   padding: 2.5em 0; }
-  @media all and (min-width:47.5em) {
+  @media all and (min-width: 47.5em) {
     .homebanner {
       padding: 5em 0; } }
-  @media all and (min-width:64em) {
+  @media all and (min-width: 64em) {
     .homebanner {
       padding: 7.5em 0; } }
 
@@ -1678,17 +1712,17 @@ a {
   text-align: center; }
 
 .homebanner__tagline {
-  margin: 0 0 .5em 0;
+  margin: 0 0 0.5em 0;
   padding: 0;
   color: #4C4D4F;
   font-weight: 400;
   font-size: 24px;
   font-size: 1.5rem; }
-  @media all and (min-width:47.5em) {
+  @media all and (min-width: 47.5em) {
     .homebanner__tagline {
       font-size: 28px;
       font-size: 1.75rem; } }
-  @media all and (min-width:64em) {
+  @media all and (min-width: 64em) {
     .homebanner__tagline {
       font-size: 36px;
       font-size: 2.25rem; } }
@@ -1700,18 +1734,17 @@ a {
   font-size: 1.125rem;
   color: #B2B3B5;
   font-weight: 300; }
-  @media all and (min-width:47.5em) {
+  @media all and (min-width: 47.5em) {
     .homebanner__motto {
       font-size: 21px;
       font-size: 1.3125rem;
       padding-bottom: 40px; } }
-  @media all and (min-width:64em) {
+  @media all and (min-width: 64em) {
     .homebanner__motto {
       font-size: 24px;
       font-size: 1.5rem; } }
 
-/* -------------------------- *\
-=modules
+/* -------------------------- *=modules
 \* -------------------------- */
 /* =pagesection
 ============================= */
@@ -1724,15 +1757,15 @@ a {
 .pagesection {
   padding-top: 3.75em;
   padding-bottom: 3.75em; }
-  @media all and (min-width:47.5em) {
+  @media all and (min-width: 47.5em) {
     .pagesection {
       padding-top: 3.75em;
       padding-bottom: 3.75em; } }
-  @media all and (min-width:64em) {
+  @media all and (min-width: 64em) {
     .pagesection {
       padding-top: 5em;
       padding-bottom: 5em; } }
-  @media all and (min-width:71.25em) {
+  @media all and (min-width: 71.25em) {
     .pagesection {
       padding-top: 6.25em;
       padding-bottom: 6.25em; } }
@@ -1748,7 +1781,7 @@ a {
 .introcenter {
   text-align: center;
   margin-bottom: 2.5em; }
-  @media all and (min-width:47.5em) {
+  @media all and (min-width: 47.5em) {
     .introcenter {
       padding: 0 8.69565%; } }
 
@@ -1765,29 +1798,29 @@ a {
   background-size: cover;
   background-color: #C5C6C7;
   height: 200px; }
-  @media all and (min-width:37.5em) {
+  @media all and (min-width: 37.5em) {
     .fullimg {
       height: 300px; } }
-  @media all and (min-width:47.5em) {
+  @media all and (min-width: 47.5em) {
     .fullimg {
       height: 400px; } }
-  @media all and (min-width:64em) {
+  @media all and (min-width: 64em) {
     .fullimg {
       height: 500px; } }
-  @media all and (min-width:71.25em) {
+  @media all and (min-width: 71.25em) {
     .fullimg {
       height: 700px; } }
 
 .fullimg--flagey {
   background-position: 50% 50%;
   background-image: url(../img/banners/banner_flagey_400.jpg); }
-  @media all and (min-width:37.5em) {
+  @media all and (min-width: 37.5em) {
     .fullimg--flagey {
       background-image: url(../img/banners/banner_flagey_800.jpg); } }
-  @media all and (min-width:64em) {
+  @media all and (min-width: 64em) {
     .fullimg--flagey {
       background-image: url(../img/banners/banner_flagey_1140.jpg); } }
-  @media all and (min-width:71.25em) {
+  @media all and (min-width: 71.25em) {
     .fullimg--flagey {
       background-image: url(../img/banners/banner_flagey_1500.jpg); } }
 
@@ -1795,55 +1828,57 @@ a {
   background-size: none;
   background-position: 50% 50%;
   background-image: url(../img/banners/banner_squares_400.jpg); }
-  @media all and (min-width:37.5em) {
+  @media all and (min-width: 37.5em) {
     .fullimg--squares {
       background-image: url(../img/banners/banner_squares_800.jpg); } }
-  @media all and (min-width:64em) {
+  @media all and (min-width: 64em) {
     .fullimg--squares {
       background-image: url(../img/banners/banner_squares_1140.jpg); } }
-  @media all and (min-width:71.25em) {
+  @media all and (min-width: 71.25em) {
     .fullimg--squares {
       background-image: url(../img/banners/banner_squares_1500.jpg); } }
 
 .fullimg--pond {
   background-position: 50% 50%;
   background-image: url(../img/banners/banner_pond_400.jpg); }
-  @media all and (min-width:37.5em) {
+  @media all and (min-width: 37.5em) {
     .fullimg--pond {
       background-image: url(../img/banners/banner_pond_800.jpg); } }
-  @media all and (min-width:64em) {
+  @media all and (min-width: 64em) {
     .fullimg--pond {
       background-image: url(../img/banners/banner_pond_1140.jpg); } }
-  @media all and (min-width:71.25em) {
+  @media all and (min-width: 71.25em) {
     .fullimg--pond {
       background-image: url(../img/banners/banner_pond_1500.jpg); } }
 
 /* =annoucements
 ============================= */
-@media all and (min-width:47.5em) {
+@media all and (min-width: 47.5em) {
   .announcement {
     margin: 0 8.69565%; } }
-@media all and (min-width:64em) {
+
+@media all and (min-width: 64em) {
   .announcement {
     margin: 0 13.04348%; } }
 
 .announcement__title {
-  margin: 0 0 .5em;
+  margin: 0 0 0.5em;
   padding: 0;
   font-weight: 300;
   color: #fff;
   font-size: 24px;
   font-size: 1.5rem; }
-  .announcement__title span {
+  .announcement__title
+span {
     margin-left: .5em;
     border-left: 1px solid #323334;
     padding-left: .5em;
     color: #B2B3B5; }
-  @media all and (min-width:47.5em) {
+  @media all and (min-width: 47.5em) {
     .announcement__title {
       font-size: 36px;
       font-size: 2.25rem; } }
-  @media all and (min-width:64em) {
+  @media all and (min-width: 64em) {
     .announcement__title {
       font-size: 48px;
       font-size: 3rem; } }
@@ -1867,19 +1902,20 @@ a {
   color: #B2B3B5; }
 
 .team-member__phones {
-  margin: .5em 0 1em;
-  padding: .5em 0 .5em;
+  margin: 0.5em 0 1em;
+  padding: 0.5em 0 0.5em;
   border-top: 1px solid #EBECEC;
   border-bottom: 1px solid #EBECEC; }
-  .team-member__phones p {
+  .team-member__phones
+p {
     margin: .25em 0;
     padding: 0; }
-  .team-member__phones a:hover {
+  .team-member__phones
+a:hover {
     text-decoration: none;
     color: #7F8184; }
 
-/* -------------------------- *\
-=lists
+/* -------------------------- *=lists
 \* -------------------------- */
 /* =spaced lists
 ============================= */
@@ -1916,8 +1952,7 @@ a {
 .list-contact a {
   color: #323334; }
 
-/* -------------------------- *\
-=icons
+/* -------------------------- *=icons
 \* -------------------------- */
 /* =inline icons
 ============================= */
@@ -1943,32 +1978,43 @@ a {
 a .icon__circle, a .icon__content {
   transition: all 0.2s linear; }
 
-.icon .icon__circle {
+.icon
+.icon__circle {
   stroke: #EBECEC;
   fill: transparent; }
-.icon .icon__content {
+
+.icon
+.icon__content {
   fill: #C5C6C7; }
 
-a:hover .icon .icon__circle {
+a:hover .icon
+.icon__circle {
   stroke: #AAB72C;
   fill: #AAB72C; }
-a:hover .icon .icon__content {
+
+a:hover .icon
+.icon__content {
   fill: #fff; }
 
-.icon--light .icon__circle {
+.icon--light
+.icon__circle {
   stroke: #fff;
   fill: transparent; }
-.icon--light .icon__content {
+
+.icon--light
+.icon__content {
   fill: #fff; }
 
-a:hover .icon--light .icon__circle {
+a:hover .icon--light
+.icon__circle {
   stroke: #fff;
   fill: #fff; }
-a:hover .icon--light .icon__content {
+
+a:hover .icon--light
+.icon__content {
   fill: #AAB72C; }
 
-/* -------------------------- *\
-=media
+/* -------------------------- *=media
 \* -------------------------- */
 .imgcontainer {
   margin: 0 0 1em 0;
