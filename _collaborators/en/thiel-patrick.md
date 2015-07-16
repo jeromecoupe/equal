@@ -2,7 +2,7 @@
 language: "en"
 surname: "Patrick"
 name: "Thiel"
-position: "Associate Lawyer"
+position: "Partner"
 image: "patrick_thiel.jpg"
 phone:
   display: "+32 2 899 9808"

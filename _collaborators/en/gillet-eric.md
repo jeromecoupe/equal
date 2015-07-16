@@ -2,7 +2,7 @@
 language: "en"
 surname: "Eric"
 name: "Gillet"
-position: "Associate Lawyer"
+position: "Partner"
 image: "eric_gillet.jpg"
 phone:
   display: "+32 2 899 9802"

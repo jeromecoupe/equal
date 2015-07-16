@@ -2,7 +2,7 @@
 language: "en"
 surname: "Luc"
 name: "Depré"
-position: "Associate Lawyer"
+position: "Partner"
 image: "luc_depre.jpg"
 phone:
   display: "+32 2 899 9807"

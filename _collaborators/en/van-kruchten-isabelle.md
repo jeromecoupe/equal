@@ -2,7 +2,7 @@
 language: "en"
 surname: "Isabelle"
 name: "van Kruchten"
-position: "Associate Lawyer"
+position: "Partner"
 image: "isabelle_vankruchten.jpg"
 phone:
   display: "+32 2 899 9810"

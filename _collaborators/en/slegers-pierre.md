@@ -2,7 +2,7 @@
 language: "en"
 surname: "Pierre"
 name: "Slegers"
-position: "Associate Lawyer"
+position: "Partner"
 image: "pierre_slegers.jpg"
 phone:
   display: "+32 2 899 9813"

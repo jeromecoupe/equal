@@ -2,7 +2,7 @@
 language: "en"
 surname: "Christophe"
 name: "Dubois"
-position: "Associate Lawyer"
+position: "Partner"
 image: "christophe_dubois.jpg"
 phone:
   display: "+32 2 899 9803"
